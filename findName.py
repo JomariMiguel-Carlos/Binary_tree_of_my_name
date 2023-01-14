@@ -63,7 +63,7 @@ if __name__ == '__main__':
               "M","C","A","R","L","O","S")
     myname_tree = build_tree(Myname)
 
-    print("J is in the list? ", myname_tree.search("J"))
+    print("\nJ is in the list? ", myname_tree.search("J"))
     print("Z is in the list? ", myname_tree.search("Z"))
-    print("In order traversal gives this sorted list:", myname_tree.in_order_traversal())
+    print("\nIn order traversal gives this sorted list:", myname_tree.in_order_traversal())
 
